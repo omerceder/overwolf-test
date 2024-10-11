@@ -7,3 +7,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// Prevent default
+document.querySelectorAll('.js-prevent-default').forEach(item => {
+    item.addEventListener('click', function(e) {
+        e.preventDefault();
+    });
+});
+
+// Lottie player - play on link hover
+document.querySelectorAll('.js-lottie-player').forEach(player => {
+    const parentLink = player.closest('a');
+    if (parentLink) {
+        parentLink.addEventListener('mouseenter', function() {
+            player.play();
+        });
+        parentLink.addEventListener('mouseleave', function() {
+            player.stop();
+        });
+    }
+});
