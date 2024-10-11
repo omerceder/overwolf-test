@@ -26,8 +26,8 @@ I tried to have the page as fully responsive as possible, and it should look OK 
 
 ### Other / MISC
 
-* I've added some things to add some 'bling', for example - the 'tool boxes' in the tools section pop up when scrolled into view.
-Also some hover transitions and other small stuff
+* I've added some things to add some 'bling', for example: the 'tool boxes' in the tools section pop up when scrolled into view.
+Also some hover transitions and other small stuff.
 * The swiper was a little tricky because of the right side overflow, I hope I got it right.
 * The mobile specs pdf (dev-test-mobile.pdf) was corrupted and couldn't be opened, I hope I didn't miss anything there.
 * Please don't hesitate to contact me if you have any questions about my proccess.
