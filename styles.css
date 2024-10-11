@@ -95,7 +95,7 @@
     --color-text-tertiary: var(--color-neutral-80);
     --color-text-secondary: var(--color-neutral-96);
     --color-text-primary: var(--color-neutral-112);
-    --color-text-pure: var(--color-neutral-128);
+    --color-text-pure: var(--color-neutral-128);    
     --color-text-cta-ow: var(--color-neutral-128);
     --color-text-brand-ow: var(--color-brand-ow);
     --color-text-hover-brand-ow: var(--color-hover-brand-ow);
@@ -109,7 +109,7 @@
 
     /* Border colors */
     --color-border-tertiary: var(--color-neutral-24);
-    --color-border-secondary: var(--color-neutral-48);
+    --color-border-secondary: var(--color-neutral-112);
     --color-border-primary: var(--color-neutral-96);
 
     /* Core Spaces */
@@ -199,7 +199,7 @@ body {
 /* Subheads */
 .subhead-l {
     font-family: var(--font-family-brand);
-    font-size: var(--font-size-500);
+    font-size: var(--font-size-550);
     font-weight: var(--font-weight-medium);
     line-height: var(--font-line-height-600);
 }
@@ -305,19 +305,21 @@ body {
 /* Button styles */
 .btn {
     display: inline-block;
-    padding: var(--space-200) var(--space-400);
-    font-weight: var(--font-weight-bold);
+    padding: var(--space-200) var(--space-600);
+    font-family: var(--font-family-brand);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--font-line-height-600);
+    font-size: var(--font-size-400);
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     border: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    color: var(--color-text-cta-ow);
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .btn-primary {
     background-color: var(--color-brand-ow);
-    color: var(--color-text-cta-ow);
 }
 
 .btn-primary:hover {
@@ -325,12 +327,26 @@ body {
 }
 
 .btn-secondary {
-    background-color: var(--color-brand-el);
-    color: var(--color-text-pure);
+    background-color: transparent;
+    border: 1px solid var(--color-neutral-112);
 }
 
 .btn-secondary:hover {
-    background-color: var(--color-brand-el-2);
+    background-color: var(--color-hover-brand-ow);
+    border-color: var(--color-hover-brand-ow);
+}
+
+.btn-chevron {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: var(--color-icon-secondary);
+    transition: transform 0.3s ease-out;
+    display: inline-block; 
+}
+
+.btn-chevron:hover {
+    transform: translateY(4px);
 }
 
 /* Container */
@@ -339,11 +355,6 @@ body {
     max-width: 1436px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-/* Utility Classes */
-.text-center {
-    text-align: center;
 }
 
 /* Utility classes */
@@ -359,11 +370,65 @@ body {
     text-align: right;
 }
 
-
 /* Images */
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Main Layout */
+
+/* Hero */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px 15px 20px;
+}
+
+.header-nav .logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+    padding-top: 197px;
+    min-height: 900px;
+}
+
+.hero-content {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-image {
+    position: absolute;
+    right: 69px;
+    top: 0;
+}
+
+.hero-headline {
+    margin-bottom: var(--space-600);
+}
+
+.hero-subhead {
+    margin-bottom: var(--space-600);
+}
+
+.hero-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* About */
+
+.about {
+    padding-top: var(--space-2400);
 }
 
 /* Media Queries */
@@ -371,4 +436,6 @@ img {
 @media screen and (min-width: 1024px) {}
 
 /* Mobile */
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+
+}
