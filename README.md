@@ -1,6 +1,6 @@
 # Omer Ceder's Overwolf Test Project
 
-## Notes for the exercise hand off
+## Notes for the exercise submission
 
 ### AI / LLM
 
