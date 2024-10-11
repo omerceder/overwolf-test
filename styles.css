@@ -161,13 +161,6 @@ body {
     line-height: var(--font-line-height-1300);
 }
 
-.headline-l {
-    font-family: var(--font-family-brand);
-    font-size: var(--font-size-800);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--font-line-height-1000);
-}
-
 .headline-m {
     font-family: var(--font-family-brand);
     font-size: var(--font-size-600);
@@ -181,21 +174,6 @@ body {
     font-weight: var(--font-weight-bold);
     line-height: var(--font-line-height-600);
 }
-
-.headline-xs {
-    font-family: var(--font-family-brand);
-    font-size: var(--font-size-400);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--font-line-height-500);
-}
-
-.headline-xxs {
-    font-family: var(--font-family-brand);
-    font-size: var(--font-size-350);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--font-line-height-400);
-}
-
 /* Subheads */
 .subhead-l {
     font-family: var(--font-family-brand);
@@ -276,16 +254,9 @@ body {
 }
 
 /* Utility classes */
+
 .text-center {
     text-align: center;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
 }
 
 .display-tablet {
