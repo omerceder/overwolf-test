@@ -59,3 +59,30 @@ document.querySelectorAll('.js-numeral').forEach(numeral => {
 
     observer.observe(numeral);
 });
+
+// Tools animation
+document.querySelectorAll('.js-tools-animation').forEach(toolsContainer => {
+    const toolsItems = toolsContainer.children;
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                Array.from(toolsItems).forEach((item, index) => {
+                    setTimeout(() => {
+                        item.style.transform = 'translateY(0)';
+                        item.style.opacity = '1';
+                        item.style.transition = 'transform 0.6s ease-out, opacity 0.3s ease-out';
+                    }, index * 100); // Delay each item by 100ms
+                });
+                observer.unobserve(toolsContainer);
+            }
+        });
+    });
+
+    observer.observe(toolsContainer);
+    
+    // Initial state
+    Array.from(toolsItems).forEach(item => {
+        item.style.transform = 'translateY(40px)';
+        item.style.opacity = '0';
+    });
+});

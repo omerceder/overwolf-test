@@ -524,6 +524,42 @@ img {
     padding-bottom: var(--space-2400);
 }
 
+
+/* Tools */
+
+.tools {
+    padding-top: var(--space-2400);
+    padding-bottom: var(--space-2400);
+}
+
+.tools-headline {
+    margin-bottom: var(--space-1200);
+}
+
+.tools-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: var(--space-600);
+}
+
+.tools-item {
+    background-color: var(--color-neutral-8);
+    padding: var(--space-1200);
+}
+
+.tools-item-icon {
+    margin-bottom: var(--space-600);
+}
+
+.tools-item-headline {
+    margin-bottom: var(--space-200);
+}
+
+.tools-item-text {
+    color: var(--color-text-primary);
+}
+
 /* Media Queries */
 
 /* Tablet */
