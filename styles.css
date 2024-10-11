@@ -560,6 +560,38 @@ img {
     color: var(--color-text-primary);
 }
 
+/* Success Stories */
+
+.success-stories {
+    padding-top: var(--space-2400);
+    padding-bottom: 180px;
+    background-color: var(--color-surface-primary);
+    overflow: hidden; /* Hide horizontal scrollbar */
+}
+
+.success-stories-headline {
+    margin-bottom: 54px;
+}
+
+.success-stories-container {
+    max-width: 100%; /* Allow container to take full width */
+    padding-left: calc((100% - 1436px) / 2 + 20px); /* Align with other containers */
+    padding-right: 0; /* Remove right padding */
+}
+
+.success-stories-slider {
+    overflow: visible; /* Allow overflow */
+    margin-right: calc(-1 * ((100vw - 1436px) / 2)); /* Negative margin to overflow */
+}
+
+.success-stories-slide {
+    width: 450px; /* Set a fixed width for slides */
+}
+
+.success-stories-slide-image {
+    width: 100%;
+}
+
 /* Media Queries */
 
 /* Tablet */

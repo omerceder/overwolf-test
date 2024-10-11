@@ -66,14 +66,16 @@ document.querySelectorAll('.js-tools-animation').forEach(toolsContainer => {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                Array.from(toolsItems).forEach((item, index) => {
-                    setTimeout(() => {
-                        item.style.transform = 'translateY(0)';
-                        item.style.opacity = '1';
-                        item.style.transition = 'transform 0.6s ease-out, opacity 0.3s ease-out';
-                    }, index * 100); // Delay each item by 100ms
-                });
-                observer.unobserve(toolsContainer);
+                setTimeout(() => {
+                    Array.from(toolsItems).forEach((item, index) => {
+                        setTimeout(() => {
+                            item.style.transform = 'translateY(0)';
+                            item.style.opacity = '1';
+                            item.style.transition = 'transform 0.6s ease-out, opacity 0.3s ease-out';
+                        }, index * 100); // Delay each item by 100ms
+                    });
+                    observer.unobserve(toolsContainer);
+                }, 200); // Add timeout of 200ms before starting
             }
         });
     });
