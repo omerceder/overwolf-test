@@ -699,8 +699,43 @@ img {
 
 /* Media Queries */
 
+/* Laptop */
+@media screen and (max-width: 1200px) {
+    .hero {
+        min-height: 800px;
+    }
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-image {
+        opacity: 0.3;
+    }
+
+    .success-stories-container {
+        padding-left: 20px; 
+        padding-right: 20px; 
+    }
+    
+    .success-stories-slider {
+        overflow: hidden;
+        margin-right: 0;
+    }
+}
 /* Tablet */
 @media screen and (max-width: 768px) {
+    .numbers-content {
+        flex-wrap: wrap;
+        gap: 24px 0;
+    }
+    .numbers-item {
+        width: 50%;
+    }
+    .tools-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        grid-row-gap: 24px;
+    }
     .display-desktop {
         display: none;
     }
