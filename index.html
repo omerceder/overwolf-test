@@ -85,6 +85,10 @@
                 <img src="./assets/hero/hero-bg.png" alt="Hero Image">
             </div>
 
+            <div class="mobile-hero-image display-mobile text-center">
+                <img src="./assets/hero/hero-mobile.png" alt="Hero Image">
+            </div>
+
             <div class="hero-bottom text-center">
                 <a href="#about" class="btn-chevron btn-chevron-down hero-chevron">
                     <svg width="24" height="24">
@@ -268,8 +272,22 @@
             <h2 class="headline-xl success-stories-headline text-center">Success Stories</h2>
             <div class="success-stories-outer-container">
                 <div class="success-stories-container">
-                    <swiper-container class="success-stories-slider js-success-stories-slider" slides-per-view="3"
-                        speed="250" space-between="24" loop="true" autoplay="true">
+                    <swiper-container 
+                        class="success-stories-slider js-success-stories-slider" 
+                        slides-per-view="1"
+                        speed="250" 
+                        space-between="24" 
+                        loop="true" 
+                        autoplay="true"
+                        breakpoints='{
+                            "768": {
+                                "slidesPerView": 2,
+                                "spaceBetween": 20
+                            },
+                            "1200": {
+                                "slidesPerView": 3
+                            }
+                        }'>
                         <swiper-slide class="success-stories-slide">
                             <img src="./assets/success-stories-slider/desktop/slide-1.png" alt="Success Story 1"
                                 class="success-stories-slide-image display-desktop">
