@@ -517,6 +517,13 @@ img {
     color: var(--color-text-primary);
 }
 
+/* Video */
+
+.video {
+    padding-top: var(--space-2400);
+    padding-bottom: var(--space-2400);
+}
+
 /* Media Queries */
 
 /* Tablet */
