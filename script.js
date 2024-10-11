@@ -88,3 +88,18 @@ document.querySelectorAll('.js-tools-animation').forEach(toolsContainer => {
         item.style.opacity = '0';
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const swiper = document.querySelector('.js-success-stories-slider').swiper;
+
+    const prevButton = document.querySelector('.success-stories-prev');
+    const nextButton = document.querySelector('.success-stories-next');
+
+    prevButton.addEventListener('click', () => {
+        swiper.slidePrev();
+    });
+
+    nextButton.addEventListener('click', () => {
+        swiper.slideNext();
+    });
+});

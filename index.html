@@ -58,7 +58,7 @@
 
     </svg>
 
-    <header class="header">
+    <header class="header" id="header">
         <nav class="header-nav">
             <a href="/" class="logo-link">
                 <img src="./assets/ow-logo.svg" alt="Overwolf Logo">
@@ -68,7 +68,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
                 <div class="hero-content">
                     <h1 class="headline-xxl hero-headline">
@@ -86,7 +86,7 @@
             </div>
 
             <div class="hero-bottom text-center">
-                <a href="#about" class="btn-chevron hero-chevron">
+                <a href="#about" class="btn-chevron btn-chevron-down hero-chevron">
                     <svg width="24" height="24">
                         <use href="#arrowDown" />
                     </svg>
@@ -99,56 +99,79 @@
                 <h2 class="headline-xl about-headline text-center">About Overwolf</h2>
                 <div class="about-content">
                     <a href="#" class="about-item text-center js-prevent-default">
-                        <dotlottie-player src="https://lottie.host/4a1a16f3-c4c6-47f6-ad3e-da533ec054f6/5WWfS1Nnqt.json" background="transparent" speed="1" style="width: 112px; height: 112px" direction="1" playMode="normal" loop class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
-                        <img src="./assets/about-overwolf/icons/swords.png" alt="Swords" class="about-item-icon display-tablet">
+                        <dotlottie-player src="https://lottie.host/4a1a16f3-c4c6-47f6-ad3e-da533ec054f6/5WWfS1Nnqt.json"
+                            background="transparent" speed="1" style="width: 112px; height: 112px" direction="1"
+                            playMode="normal" loop
+                            class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
+                        <img src="./assets/about-overwolf/icons/swords.png" alt="Swords"
+                            class="about-item-icon display-tablet">
                         <h3 class="headline-m about-item-headline">
-                            Legendary Apps    
+                            Legendary Apps
                         </h3>
                         <p class="body-l about-item-text">
                             Create powerful desktop apps and overlays for AAA games, using basic HTML and Javascript
                         </p>
                     </a>
                     <a href="#" class="about-item text-center js-prevent-default">
-                        <dotlottie-player src="https://lottie.host/bd751f8e-01b9-43b1-8029-72251a5cd7b5/Swp1mXRCTB.json" background="transparent" speed="1" style="width: 112px; height: 112px" direction="1" playMode="normal" loop class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
-                        <img src="./assets/about-overwolf/icons/anvil.png" alt="Anvil" class="about-item-icon display-tablet">
+                        <dotlottie-player src="https://lottie.host/bd751f8e-01b9-43b1-8029-72251a5cd7b5/Swp1mXRCTB.json"
+                            background="transparent" speed="1" style="width: 112px; height: 112px" direction="1"
+                            playMode="normal" loop
+                            class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
+                        <img src="./assets/about-overwolf/icons/anvil.png" alt="Anvil"
+                            class="about-item-icon display-tablet">
                         <h3 class="headline-m about-item-headline">
-                            Legendary Mods    
+                            Legendary Mods
                         </h3>
                         <p class="body-l about-item-text">
                             Create, manage and monetize mods<br>for AAA games, exposing them<br>to millions of gamers
                         </p>
                     </a>
                     <a href="#" class="about-item text-center js-prevent-default">
-                        <dotlottie-player src="https://lottie.host/6bf80aa6-9be2-4b94-9335-f2ccf45f7bc6/w7hvYWsJ8w.json" background="transparent" speed="1" style="width: 112px; height: 112px" direction="1" playMode="normal" loop class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
-                        <img src="./assets/about-overwolf/icons/server.png" alt="Server" class="about-item-icon display-tablet">
+                        <dotlottie-player src="https://lottie.host/6bf80aa6-9be2-4b94-9335-f2ccf45f7bc6/w7hvYWsJ8w.json"
+                            background="transparent" speed="1" style="width: 112px; height: 112px" direction="1"
+                            playMode="normal" loop
+                            class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
+                        <img src="./assets/about-overwolf/icons/server.png" alt="Server"
+                            class="about-item-icon display-tablet">
                         <h3 class="headline-m about-item-headline">
-                            Legendary Servers    
+                            Legendary Servers
                         </h3>
                         <p class="body-l about-item-text">
-                            Create in-game stores, sell goods to your gamers and grow your player base through our tools & server list
+                            Create in-game stores, sell goods to your gamers and grow your player base through our tools
+                            & server list
                         </p>
                     </a>
                     <a href="#" class="about-item text-center js-prevent-default">
-                        <dotlottie-player src="https://lottie.host/c5ee564b-2a20-40eb-a25e-d6f070f3af07/IGYfqg1khs.json" background="transparent" speed="1" style="width: 112px; height: 112px" direction="1" playMode="normal" loop class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
-                        <img src="./assets/about-overwolf/icons/megaphone.png" alt="Megaphone" class="about-item-icon display-tablet">
+                        <dotlottie-player src="https://lottie.host/c5ee564b-2a20-40eb-a25e-d6f070f3af07/IGYfqg1khs.json"
+                            background="transparent" speed="1" style="width: 112px; height: 112px" direction="1"
+                            playMode="normal" loop
+                            class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
+                        <img src="./assets/about-overwolf/icons/megaphone.png" alt="Megaphone"
+                            class="about-item-icon display-tablet">
                         <h3 class="headline-m about-item-headline">
-                            Legendary Ads    
+                            Legendary Ads
                         </h3>
                         <p class="body-l about-item-text">
-                            Supercharge your website with ads, and get faster payments, customer service, and ad load time
+                            Supercharge your website with ads, and get faster payments, customer service, and ad load
+                            time
                         </p>
                     </a>
                     <a href="#" class="about-item text-center js-prevent-default">
-                        <dotlottie-player src="https://lottie.host/8adaa373-68b1-43b2-9b6e-75ab82b922ba/V0SkPypFu0.json" background="transparent" speed="1" style="width: 112px; height: 112px" direction="1" playMode="normal" loop class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
-                        <img src="./assets/about-overwolf/icons/crystals.png" alt="Crystals" class="about-item-icon display-tablet">
+                        <dotlottie-player src="https://lottie.host/8adaa373-68b1-43b2-9b6e-75ab82b922ba/V0SkPypFu0.json"
+                            background="transparent" speed="1" style="width: 112px; height: 112px" direction="1"
+                            playMode="normal" loop
+                            class="about-item-lottie js-lottie-player display-desktop"></dotlottie-player>
+                        <img src="./assets/about-overwolf/icons/crystals.png" alt="Crystals"
+                            class="about-item-icon display-tablet">
                         <h3 class="headline-m about-item-headline">
-                            Legendary Funds    
+                            Legendary Funds
                         </h3>
                         <p class="body-l about-item-text">
-                            Overwolf’s creator fund is a $50M fund dedicated to supporting game studios, developers and creators
+                            Overwolf’s creator fund is a $50M fund dedicated to supporting game studios, developers and
+                            creators
                         </p>
                     </a>
-                    
+
                 </div>
             </div>
         </section>
@@ -192,14 +215,16 @@
                             Games<br>Supported
                         </p>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
 
-        <section class="video">
+        <section class="video-section">
             <div class="container text-center">
-                <iframe width="1112" height="626" src="https://www.youtube.com/embed/1uFGfVk-Jds" frameborder="0" allowfullscreen></iframe>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/1uFGfVk-Jds" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
 
@@ -234,110 +259,177 @@
                             Turn your app into revenue through ads & subscriptions
                         </p>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
 
         <section class="success-stories">
             <h2 class="headline-xl success-stories-headline text-center">Success Stories</h2>
-            <div class="container success-stories-container">
-                <swiper-container class="success-stories-slider js-success-stories-slider" slides-per-view="3" speed="250" space-between="24" loop="true" autoplay="true">
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-1.png" alt="Success Story 1" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-1-mobile.png" alt="Success Story 1" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-1-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-2.png" alt="Success Story 2" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-2-mobile.png" alt="Success Story 2" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-2-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-3.png" alt="Success Story 3" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-3-mobile.png" alt="Success Story 3" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-3-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-4.png" alt="Success Story 4" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-4-mobile.png" alt="Success Story 4" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-4-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-5.png" alt="Success Story 5" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-5-mobile.png" alt="Success Story 5" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-5-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-6.png" alt="Success Story 6" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-6-mobile.png" alt="Success Story 6" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-6-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                    <swiper-slide class="success-stories-slide">
-                        <img src="./assets/success-stories-slider/desktop/slide-7.png" alt="Success Story 7" class="success-stories-slide-image display-desktop">
-                        <img src="./assets/success-stories-slider/mobile/slide-7-mobile.png" alt="Success Story 7" class="success-stories-slide-image display-mobile">
-                        <div class="success-stories-slide-headline-wrapper">
-                            <img src="./assets/success-stories-slider/thumbnails-icon/slide-7-icon.png" alt="RuneMaster" class="success-stories-slide-headline-icon">
-                            <h3 class="headline-m success-stories-slide-headline">
-                                RuneMaster
-                            </h3>
-                        </div>
-                        <p class="body-l success-stories-slide-text">
-                            RuneMaster predicts your opponent's rune choices based on historical patterns and recommends the best counter-runes and champion strategies to outplay them right from the start.
-                        </p>
-                    </swiper-slide>
-                </swiper-container>
+            <div class="success-stories-outer-container">
+                <div class="success-stories-container">
+                    <swiper-container class="success-stories-slider js-success-stories-slider" slides-per-view="3"
+                        speed="250" space-between="24" loop="true" autoplay="true">
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-1.png" alt="Success Story 1"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-1-mobile.png" alt="Success Story 1"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-1-icon.png" alt="RuneMaster"
+                                    class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    RuneMaster
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                RuneMaster predicts your opponent's rune choices based on historical patterns and recommends
+                                the best counter-runes and champion strategies to outplay them right from the start.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-2.png" alt="Success Story 2"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-2-mobile.png" alt="Success Story 2"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-2-icon.png"
+                                    alt="ChampionSync" class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    ChampionSync
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                ChampionSync analyzes your past matches and suggests champions that perfectly sync with your
+                                playstyle. It also suggests teammates that complement your team composition, boosting your
+                                synergy in ranked games.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-3.png" alt="Success Story 3"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-3-mobile.png" alt="Success Story 3"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-3-icon.png" alt="Pathfinder"
+                                    class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    Pathfinder
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                Pathfinder tracks enemy junglers in real-time by analyzing map patterns, predicting ganks
+                                before they happen, and offering optimal warding positions to keep your team safe.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-4.png" alt="Success Story 4"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-4-mobile.png" alt="Success Story 4"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-4-icon.png" alt="SkillCurve"
+                                    class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    SkillCurve
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                SkillCurve helps you master difficult champions by adapting in-game tutorials to your
+                                performance. It tracks your progress and adjusts its tips in real-time, making sure you're
+                                always improving your mechanics on the fly.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-5.png" alt="Success Story 5"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-5-mobile.png" alt="Success Story 5"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-5-icon.png" alt="Ult-Timer"
+                                    class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    Ult-Timer
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                Ult-Timer tracks ultimate abilities for all champions on both teams, giving you an edge by
+                                alerting you when an enemy’s ultimate is ready or on cooldown, helping you plan fights more
+                                effectively.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-6.png" alt="Success Story 6"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-6-mobile.png" alt="Success Story 6"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-6-icon.png" alt="GankVision"
+                                    class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    GankVision
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                GankVision uses AI to predict potential gank scenarios based on lane pressure and jungle
+                                activity. It warns you with pop-up alerts whenever a gank might be heading your way, so you
+                                can always stay one step ahead.
+                            </p>
+                        </swiper-slide>
+                        <swiper-slide class="success-stories-slide">
+                            <img src="./assets/success-stories-slider/desktop/slide-7.png" alt="Success Story 7"
+                                class="success-stories-slide-image display-desktop">
+                            <img src="./assets/success-stories-slider/mobile/slide-7-mobile.png" alt="Success Story 7"
+                                class="success-stories-slide-image display-mobile">
+                            <div class="success-stories-slide-headline-wrapper">
+                                <img src="./assets/success-stories-slider/thumbnails-icon/slide-7-icon.png"
+                                    alt="ClutchCoach" class="success-stories-slide-headline-icon">
+                                <h3 class="headline-m success-stories-slide-headline">
+                                    ClutchCoach
+                                </h3>
+                            </div>
+                            <p class="body-l success-stories-slide-text">
+                                ClutchCoach is a performance-enhancing app that analyzes high-pressure moments like team
+                                fights or baron steals. It gives you real-time advice on how to handle critical situations
+                                and boost your chances of pulling off game-changing plays.
+                            </p>
+                        </swiper-slide>
+                    </swiper-container>
+                    <!-- Custom Slider  navigation -->
+                </div>
+                <div class="success-stories-navigation">
+                    <button class="success-stories-prev">
+                        <svg width="24" height="24">
+                            <use href="#sliderArrow" />
+                        </svg>
+                    </button>
+                    <button class="success-stories-next">
+                        <svg width="24" height="24">
+                            <use href="#sliderArrow" />
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="#hero" class="btn-chevron btn-chevron-up footer-chevron text-center">
+                <svg width="24" height="24">
+                    <use href="#topArrow" />
+                </svg>
+                <p class="footer-chevron-text headline-s">
+                    Back to Top
+                </p>
+            </a>
+            <a href="/" class="logo-link">
+                <img src="./assets/ow-logo.svg" alt="Overwolf Logo">
+            </a>
+        </nav>
+        <div class="footer-bottom-row"></div>
+    </footer>
+
     <!-- Lottie library CDN -->
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
     <!-- Swiper library CDN -->
