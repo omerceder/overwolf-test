@@ -17,7 +17,7 @@ This exercise is not the result of heavy prompting and no chat bots were abused 
 
 ### CSS 
 
-* I've used regular CSS and not SCSS/SASS. In retrospect, I think I prefer to use SCSS and compile it even for a one-pager like this.
+* I've used regular CSS and not SCSS/SASS. In retrospect, I think it would have been better to use SCSS and compile it even for a one-pager like this.
 * I did try to make use of the variables as much as possible.
 
 ### Responsiveness
