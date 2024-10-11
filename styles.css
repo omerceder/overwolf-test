@@ -389,6 +389,15 @@ img {
 
 /* Hero */
 
+.header {
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--color-surface-pure) ;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
