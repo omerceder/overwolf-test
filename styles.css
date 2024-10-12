@@ -498,6 +498,15 @@ img {
 .success-stories-slide-image {
     width: 100%;
     margin-bottom: var(--space-1000);
+    transition: filter 0.3s ease;
+}
+
+.success-stories-slide-image:hover {
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+    -moz-filter: brightness(150%);
+    -o-filter: brightness(150%);
+    -ms-filter: brightness(150%);
 }
 
 .success-stories-slide-headline-wrapper {
