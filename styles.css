@@ -658,7 +658,8 @@ img {
         line-height: 40px;
     }
     .subhead-l {
-        font-size: var(--font-size-600);
+        font-size: var(--font-size-450);
+        line-height: var(--font-line-height-700);
     }
     .logo-link {
         max-width: 124px;
